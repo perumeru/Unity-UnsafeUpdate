@@ -91,7 +91,7 @@ namespace Util.UpdateManager
             {
                 updateCount = default(uint);
                 Array.Clear(UnsafeUpdates, 0, UnsafeUpdates.Length);
-                UnsafeUpdates = new T[resize];
+                //UnsafeUpdates = new T[resize];
             }
             public UpdateInfo(in uint arraysize, in Updatetype type)
             {
